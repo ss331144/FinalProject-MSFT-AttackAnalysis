@@ -16,7 +16,9 @@ When using **Gradio** to build interactive web interfaces in Python, it's import
 
 ### Run Gradio on Google Colab
 
-Here is a useful [Google Colab example notebook for Gradio](https://colab.research.google.com/github/gradio-app/gradio/blob/main/demo/Quickstart.ipynb) that demonstrates how to create and launch Gradio interfaces easily.
+Here is a useful 
+link - https://colab.research.google.com/drive/1_VcG-HvtXihENWJ1fWx-U91AwFp6KmUR?usp=sharing
+that demonstrates how to create and launch Gradio interfaces easily.
 
 Feel free to open and run it directly in Colab!
 
