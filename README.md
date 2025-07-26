@@ -54,7 +54,7 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 
 We’re excited about this project and open to feedback, collaboration, or any questions you might have!
 
-- **Sahar Yaakov:** saharyaccov.ds@gmail.com  
+- **Sahar Yaakov:** saharyaccov@gmail.com  
 - **Bar Cohen:** barhofi9@gmail.com 
 
 Feel free to reach out!
