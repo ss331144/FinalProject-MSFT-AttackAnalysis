@@ -14,3 +14,7 @@ Feel free to explore, modify, and run the notebooks to understand the techniques
 ---
 
 For any questions or suggestions, please open an issue or contact the maintainer.
+
+---
+
+link - https://colab.research.google.com/drive/1_VcG-HvtXihENWJ1fWx-U91AwFp6KmUR?usp=sharing
