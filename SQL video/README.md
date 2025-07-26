@@ -15,7 +15,7 @@ The compression was performed using Python with the FFmpeg library, applying bit
 ---
 
 **Important:**  
-To run the code from the Google Colab notebook, you must have **MySQL installed on your local computer** and run the relevant services from your personal machine.
+To run the code from the Google Colab notebook, you must have **MySQL installed on your local computer** and run the relevant services from your personal computer.
 
 ---
 
