@@ -93,3 +93,6 @@ Make sure the database exists or run the scripts that create it before running d
 * To suppress warnings (e.g., SQLAlchemy warnings), configure Python’s warnings or logging.
 * If saving files to directories, ensure the directories exist or use `os.makedirs(path, exist_ok=True)` in the code.
 * Verify your Python environment and dependencies are correctly installed.
+
+Google Colab Link - https://colab.research.google.com/drive/1_VcG-HvtXihENWJ1fWx-U91AwFp6KmUR#scrollTo=cbJ7lqxSdFy3
+בן
