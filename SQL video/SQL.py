@@ -212,12 +212,10 @@ def is_exist_table(schema_name,table_name):
 if __name__ == "__main__":
     try:
         # my data
-        new_col = ['MS25-001', '5000001', 'Denial of Service', 'Security Update for Windows Defender', 'Windows 10 Version 2004 for x64-based Systems', '5000001', 'Windows Defender', 'Denial of Service', 'Important', 'MS25-001[5000001]', 'No', 'CVE-2025-0001', '2025', '5', '20', 'Important', '16']
         schema_name = 'Sahar_project_sql'
         table_name = 'Microsoft_Security'
         pk_name = 'ID'
         p_sahar = '/Users/shryqb/PycharmProjects/new_project_original/file_1/data/Merged_Bulletin_Data.xlsx'
-        #remove_pk_and_column(table_name=table_name,schema_name=schema_name)
 
 
         save_excel_to_mysql(path=p_sahar, schema_name=schema_name, table_name=table_name)
@@ -226,9 +224,6 @@ if __name__ == "__main__":
         #בודק אם המסד קיים
         exists = is_exist_schema(schema_name=schema_name)
         print('Schema exist : '+str(exists))
-        i=1
-
-
-
+        
     except Exception as e:
         print(e)
