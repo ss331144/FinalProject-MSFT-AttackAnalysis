@@ -4,8 +4,10 @@ This dashboard is created using Tableau and provides interactive visualizations 
 Dashboard Location
 The dashboard is publicly available on Tableau Public and can be accessed via the following link:
 
-1 - https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-2 - https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1
+Tableau Public : 
+
+**Bar Cohen's Dashboard:** | 1 - https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+**Sahar Yaccov's Dashboard:** | 2 - https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1
 
 Features
 Interactive filters and drill-down options
@@ -17,5 +19,4 @@ No additional software installation is required.
 Feel free to share the dashboard link with colleagues or stakeholders.
 If you have any questions or feedback regarding the dashboard, please contact the project team.
 
-link Dashboard 1 - https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-link Dashboard 2 - https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1
+
