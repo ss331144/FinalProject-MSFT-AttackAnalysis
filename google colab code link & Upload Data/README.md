@@ -3,6 +3,8 @@
 Welcome to the repository!  
 Here you will find Google Colab notebooks containing code and experiments related to **Machine Learning**.
 
+link - https://colab.research.google.com/drive/1_VcG-HvtXihENWJ1fWx-U91AwFp6KmUR?usp=sharing
+
 ## About
 
 - The notebooks are designed to be run directly on **Google Colab**, with minimal setup.
