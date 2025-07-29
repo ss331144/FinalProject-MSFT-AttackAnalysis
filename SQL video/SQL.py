@@ -212,7 +212,7 @@ def is_exist_table(schema_name,table_name):
 if __name__ == "__main__":
     try:
         # my data
-        schema_name = 'Sahar_project_sql'
+        schema_name = 'project_Microsoft_Security'
         table_name = 'Microsoft_Security'
         pk_name = 'ID'
         p_sahar = '/Users/shryqb/PycharmProjects/new_project_original/file_1/data/Merged_Bulletin_Data.xlsx'
