@@ -100,10 +100,7 @@ Make sure your working directory has proper write permissions, or create the nee
 Data files are **not included** in the repository.
 Download or place the necessary datasets in the correct folders as referenced in the scripts.
 
-## Database Setup
 
-If using MySQL or other databases, update connection credentials (user, password, host, port) in the scripts accordingly.
-Make sure the database exists or run the scripts that create it before running dependent scripts.
 
 ## Additional Notes
 
