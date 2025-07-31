@@ -7,5 +7,7 @@ This folder contains the key reports generated throughout the project lifecycle:
 - **Data Preparation Report:** Documentation of data cleaning, transformation, and feature engineering steps performed before modeling.  
 - **Model Evaluation Report:** Results and comparison of different machine learning models used to predict cybersecurity incidents.  
 - **Modeling Report:** Detailed explanation of the modeling approach, algorithms applied, and hyperparameter tuning process.
+- ## Deployment Report: Comprehensive Overview of the Model Deployment Strategy and Infrastructure
+
 
 Open these reports (mostly in HTML or PDF) in a browser or reader to review the findings and project progress.
