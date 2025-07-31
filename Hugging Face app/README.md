@@ -6,4 +6,6 @@ In this project, we used **Gradio** within Hugging Face Spaces to create an inte
 
 One of the main benefits of using Spaces is the speed and simplicity of deployment. Unlike traditional infrastructure that requires setting up servers, Docker containers, or cloud environments manually, Hugging Face Spaces allows you to deploy a fully functional app within minutes — directly from your browser or Git command line.
 
-However, it's important to note that Spaces have some limitations, such as limited compute resources and runtime constraints on free tiers. For heavier models or long-running tasks, Hugging Face also offers **paid tiers** or integration with **Inference Endpoints** for scalable, production-grade deployment.
+However, it's important to note that Spaces have some limitations, such as limited compute resources and runtime constraints on free tiers. For heavier models or long-running tasks, Hugging Face also offers **paid tiers** or integration with **Inference Endpoints** for scalable, production-grade deployment
+
+Link - https://huggingface.co/spaces/sahar-yaccov/Microsoft-Attack
