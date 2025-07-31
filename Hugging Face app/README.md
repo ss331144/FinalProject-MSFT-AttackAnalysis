@@ -9,3 +9,5 @@ One of the main benefits of using Spaces is the speed and simplicity of deployme
 However, it's important to note that Spaces have some limitations, such as limited compute resources and runtime constraints on free tiers. For heavier models or long-running tasks, Hugging Face also offers **paid tiers** or integration with **Inference Endpoints** for scalable, production-grade deployment
 
 Link - https://huggingface.co/spaces/sahar-yaccov/Microsoft-Attack
+
+<img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/4d8fc5d4-1e38-436a-b58a-dd77860d5eb3" />
