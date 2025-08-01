@@ -1,26 +1,26 @@
 # Project Structure Overview
 
-This project, **FinalProject-MSFT-AttackAnalysis**, is organized into several key directories that help manage data, analysis, and resources efficiently. Below is a description of each main folder and its purpose:
+The **FinalProject-MSFT-AttackAnalysis** repository is thoughtfully organized into directories that facilitate a smooth workflow, from raw data collection to feature engineering and data enrichment.
 
-| Folder Name | Description                                             |
-|-------------|---------------------------------------------------------|
-| `Data/`     | Contains raw and processed datasets used for analysis, including Excel files with Microsoft security bulletins spanning different years. |
-| `Data Analysis/` | (If applicable) Includes scripts, notebooks, or reports where the data is explored, cleaned, and visualized to extract insights. |
-| `Search Across Bulletins/` | Holds tools or scripts to perform search operations across the extensive collection of security bulletins. |
+| Folder Name               | Description                                                                                   |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| `Data/`                  | Contains the primary raw datasets, including Microsoft security bulletins across multiple years. |
+| `Data Analysis/`         | Includes feature engineering scripts and notebooks, where raw data is transformed into meaningful features for modeling. |
+| `Search Across Bulletins/` | Houses supplementary files related to the data, such as lookup tables, metadata, and auxiliary resources that support analysis. |
 
 ---
 
 ### Folder Details
 
 - **Data/**  
-  This directory stores all primary data sources related to Microsoft security events. For example, it contains multiple Excel files segmented by year ranges such as *Bulletin Search (2001 - 2008).xlsx* and *Bulletin Search (2008 - 2017).xlsx*. These datasets form the foundation for further data preparation and modeling.
+  This directory contains the core datasets essential for the project. It includes comprehensive Excel files with Microsoft security bulletins spanning years like *2001-2008* and *2008-2017*. These raw data files are the basis for all subsequent processing and analysis.
 
 - **Data Analysis/**  
-  This folder is dedicated to data exploration and preprocessing activities. Here you will find Python scripts or Jupyter notebooks used to understand patterns, clean data, and prepare it for modeling or reporting.
+  Serving as the feature engineering hub, this folder holds scripts and notebooks where the raw data is processed, cleaned, and transformed into predictive features. It is the crucial step where the data gains structure and form to be utilized in machine learning models.
 
 - **Search Across Bulletins/**  
-  Contains utility scripts or tools that enable comprehensive querying and searching across the collected security bulletins, facilitating quick retrieval of relevant information.
+  This folder provides additional supporting files connected to the datasets, including metadata, reference tables, or other auxiliary documents that enhance understanding and facilitate deeper analysis.
 
 ---
 
-This organized structure ensures clarity and efficiency in managing the different stages of the project lifecycle — from raw data ingestion through detailed analysis to final reporting.
+This clear and modular organization supports effective project management, ensuring that each stage — from data ingestion through feature creation to analysis — is logically separated and easy to navigate.
