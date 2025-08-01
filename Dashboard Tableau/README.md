@@ -8,11 +8,11 @@ Tableau Public :
 
 **Bar Cohen's Dashboard:** 
 
-1 - [dash1][https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+1 - [Dashboard 2](https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link_
 
 **Sahar Yaccov's Dashboard:** | 
 
-2- [dash2][https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1]
+2- [Dashboard 2](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
 Features
 Interactive filters and drill-down options
