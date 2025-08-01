@@ -6,13 +6,9 @@ The dashboard is publicly available on Tableau Public and can be accessed via th
 
 Tableau Public : 
 
-**Bar Cohen's Dashboard:** 
+**Bar Cohen's Dashboard:**  - [Dashboard 2](https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link_)
 
-1 - [Dashboard 2](https://public.tableau.com/views/Book1_17535246082780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link_
-
-**Sahar Yaccov's Dashboard:** | 
-
-2- [Dashboard 2](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
+**Sahar Yaccov's Dashboard:** - [Dashboard 2](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
 Features
 Interactive filters and drill-down options
