@@ -1,3 +1,53 @@
+# 📘 Table of Contents – Final Project: MSFT Attack Analysis
+
+## 1. Project Overview
+- Introduction  
+- Importance of the Project  
+- Objectives  
+
+## 2. Data Description
+- Dataset Source  
+- Data Features  
+- Data Size and Scope  
+
+## 3. Methodology
+- Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature Engineering  
+
+## 4. Machine Learning Models
+- Model Selection  
+- Model Training  
+- Model Evaluation  
+
+## 5. Results and Analysis
+- Performance Metrics  
+- Comparative Analysis of Models  
+- Key Findings  
+
+## 6. Technologies and Libraries
+- Programming Languages  
+- Data Handling Libraries  
+- Machine Learning Libraries  
+- Visualization Tools  
+
+## 7. Project Structure
+- Folder and File Descriptions  
+- Important Files and Directories  
+
+## 8. Authors and Contributors
+- Author Details
+
+## 9. Contact and Collaboration
+- Contact Information  
+- Collaboration Opportunities  
+
+## 10. Conclusion
+- Summary of Findings  
+- Future Work  
+- Final Thoughts
+
+
 # FinalProject-MSFT-AttackAnalysis
 Data science final project focused on analyzing and predicting cybersecurity incidents using real-world Microsoft threat data. Includes data preprocessing, feature engineering, and model evaluation with various machine learning algorithms.
 
