@@ -1,3 +1,15 @@
+## 📑 Table of Contents – Project Structure Overview
+
+1. [Project Structure Overview](#project-structure-overview)  
+2. [Folder Summary](#folder-summary)  
+3. [Folder Details](#folder-details)  
+   - [Data/](#data)  
+   - [Data Analysis/](#data-analysis)  
+   - [Search Across Bulletins/](#search-across-bulletins)  
+4. [Organizational Rationale](#organizational-rationale)
+
+
+
 # Project Structure Overview
 
 The **FinalProject-MSFT-AttackAnalysis** repository is organized to clearly separate raw data, supporting documentation, and additional files that enrich the analysis process.
