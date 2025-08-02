@@ -1,51 +1,43 @@
 # 📘 Table of Contents – Final Project: MSFT Attack Analysis
 
-## 1. Project Overview
-- Introduction  
-- Importance of the Project  
-- Objectives  
+1. [Project Overview](#1-project-overview)
+    - [Introduction](#1-project-overview)
+    - [Importance of the Project](#1-project-overview)
+    - [Objectives](#1-project-overview)
+2. [Data Description](#2-data-description)
+    - [Dataset Source](#2-data-description)
+    - [Data Features](#2-data-description)
+    - [Data Size and Scope](#2-data-description)
+3. [Methodology](#3-methodology)
+    - [Data Cleaning and Preprocessing](#3-methodology)
+    - [Exploratory Data Analysis (EDA)](#3-methodology)
+    - [Feature Engineering](#3-methodology)
+4. [Machine Learning Models](#4-machine-learning-models)
+    - [Model Selection](#4-machine-learning-models)
+    - [Model Training](#4-machine-learning-models)
+    - [Model Evaluation](#4-machine-learning-models)
+5. [Results and Analysis](#5-results-and-analysis)
+    - [Performance Metrics](#5-results-and-analysis)
+    - [Comparative Analysis of Models](#5-results-and-analysis)
+    - [Key Findings](#5-results-and-analysis)
+6. [Technologies and Libraries](#6-technologies-and-libraries)
+    - [Programming Languages](#6-technologies-and-libraries)
+    - [Data Handling Libraries](#6-technologies-and-libraries)
+    - [Machine Learning Libraries](#6-technologies-and-libraries)
+    - [Visualization Tools](#6-technologies-and-libraries)
+7. [Project Structure](#7-project-structure)
+    - [Folder and File Descriptions](#7-project-structure)
+    - [Important Files and Directories](#7-project-structure)
+8. [Authors and Contributors](#8-authors-and-contributors)
+    - [Author Details](#8-authors-and-contributors)
+9. [Contact and Collaboration](#9-contact-and-collaboration)
+    - [Contact Information](#9-contact-and-collaboration)
+    - [Collaboration Opportunities](#9-contact-and-collaboration)
+10. [Conclusion](#10-conclusion)
+    - [Summary of Findings](#10-conclusion)
+    - [Future Work](#10-conclusion)
+    - [Final Thoughts](#10-conclusion)
 
-## 2. Data Description
-- Dataset Source  
-- Data Features  
-- Data Size and Scope  
-
-## 3. Methodology
-- Data Cleaning and Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Feature Engineering  
-
-## 4. Machine Learning Models
-- Model Selection  
-- Model Training  
-- Model Evaluation  
-
-## 5. Results and Analysis
-- Performance Metrics  
-- Comparative Analysis of Models  
-- Key Findings  
-
-## 6. Technologies and Libraries
-- Programming Languages  
-- Data Handling Libraries  
-- Machine Learning Libraries  
-- Visualization Tools  
-
-## 7. Project Structure
-- Folder and File Descriptions  
-- Important Files and Directories  
-
-## 8. Authors and Contributors
-- Author Details
-
-## 9. Contact and Collaboration
-- Contact Information  
-- Collaboration Opportunities  
-
-## 10. Conclusion
-- Summary of Findings  
-- Future Work  
-- Final Thoughts
 
 
 # FinalProject-MSFT-AttackAnalysis
