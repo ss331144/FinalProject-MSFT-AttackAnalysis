@@ -18,7 +18,7 @@ Data science final project focused on analyzing and predicting cybersecurity inc
 
 Welcome to our final data science project! This is a deep dive into the world of cybersecurity, focusing specifically on Microsoft-related attacks and vulnerabilities. Using a massive, real-world dataset from Microsoft’s security bulletins and the GUIDE dataset, we aim to uncover patterns, predict attack likelihoods, and help improve defenses through machine learning.
 
-Why this project? Cybersecurity is one of the hottest and most critical fields today. With cyberattacks growing in sophistication and scale, understanding how and why attacks happen — especially targeting widely used platforms like Microsoft — can save organizations millions and protect countless users. Our project analyzes over **23,000** real incidents and **43** data features, ranging from CVE identifiers to attack complexity and exploitability scores.
+Why this project? Cybersecurity is one of the hottest and most critical fields today. With cyberattacks growing in sophistication and scale, understanding how and why attacks happen — especially targeting widely used platforms like Microsoft — can save organizations millions and protect countless users. Our project analyzes over **23,000** real incidents and **14** data features, ranging from CVE identifiers to attack complexity and exploitability scores.
 
 We built a robust pipeline that covers everything from data cleaning and exploratory analysis to applying and comparing advanced ML models such as Random Forest, CatBoost, LightGBM, XGBoost, Extra Trees, and even cutting-edge neural nets like TabNet. Our goal: to identify which vulnerabilities are most likely to be exploited and to find the best predictive models.
 
