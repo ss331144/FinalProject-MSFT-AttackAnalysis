@@ -1,5 +1,3 @@
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/e0b724d2-7610-48a1-8fca-8d93f4d9c90f" />
-
 # 📑 Table of Contents
 
 1. [🚀 Project Overview](#-project-overview)  
@@ -78,4 +76,7 @@ Feel free to reach out!
 *We hope it inspires new ideas and advances in cybersecurity analytics!*
 
 ---
+
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e4c82e71-b957-41f5-a5a7-18cd4e6aa859" />
 
