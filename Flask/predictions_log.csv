@@ -1,4 +1,0 @@
-Date,Time,Impact,Title,Severity.1,Supersedes,Reboot,CVEs,Affected Component,Component KB,Prediction
-2025-08-07,20:50:56,Defense in Depth,04 March 2002 Cumulative VM Update,Moderate,"MS00-031,MS00-044",Maybe,"2008-1438,CVE-2008-1437", Microsoft FrontPage 2003,2028864,['Moderate']
-2025-08-07,20:51:13,Not a Vulnerability,04 March 2002 Cumulative VM Update,Important,MS02-014,Maybe,"2008-1438,CVE-2008-1437",Active Directory Federation Services 1.x,2028864,['Moderate']
-2025-08-07,20:51:20,Defense in Depth,04 March 2002 Cumulative VM Update,Critical,"MS00-005,MS00-006,MS00-007,MS00-021,MS00-027,MS00-029,MS00-040,MS00-047,MS00-052,MS00-083,MS00-087,MS00-091,MS00-094,MS00-100,MS01-003,MS01-008,MS01-009,MS01-017,MS01-040,MS01-041,MS01-052,MS02-001,MS02-018,MS99-041,MS99-046,MS99-056,MS99-060",Yes,CAN-2001-0006, Microsoft FrontPage 2003,2028864,['Critical']
