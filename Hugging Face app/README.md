@@ -12,7 +12,7 @@ However, it's important to note that Spaces have some limitations, such as limit
 
 <img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/4d8fc5d4-1e38-436a-b58a-dd77860d5eb3" />
 
-[Hugging App Flask ](Hugging App Gradio ](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Attack)
+[Hugging App Flask ](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Attack)
 
 <img width="330" height="185" alt="image" src="https://github.com/user-attachments/assets/7644106c-dbb0-4d6e-bb50-0b84ede928c2" />
 
