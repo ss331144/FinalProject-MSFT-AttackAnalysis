@@ -1,8 +1,7 @@
 ## 📑 Table of Contents – Project Structure Overview
 
-1. [Project Structure Overview](#project-structure-overview)  
-2. [Folder Summary](#folder-summary)  
-3. [Folder Details](#folder-details)  
+1. [Project Structure Overview](#project-structure-overview)    
+2. [Folder Details](#folder-details)  
 
 
 
