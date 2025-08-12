@@ -19,7 +19,7 @@ However, it's important to note that Spaces have some limitations, such as limit
 <img width="330" height="180" alt="image" src="https://github.com/user-attachments/assets/f15e3dfe-491c-4180-977d-13ea53ccbea0" />
 
 
-[[Hugging App Flask Target Severity](https://huggingface.co/spaces/sahar-yaccov/microsoft-cyber-attack)
+[Hugging App Flask Target Severity](https://huggingface.co/spaces/sahar-yaccov/microsoft-cyber-attack)
 
 <img width="330" height="185" alt="image" src="https://github.com/user-attachments/assets/7644106c-dbb0-4d6e-bb50-0b84ede928c2" />
 
