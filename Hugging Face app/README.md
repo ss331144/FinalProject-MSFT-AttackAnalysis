@@ -12,9 +12,13 @@ However, it's important to note that Spaces have some limitations, such as limit
 
 <img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/4d8fc5d4-1e38-436a-b58a-dd77860d5eb3" />
 
-[Hugging Aoo Flask Target Impact](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Type-Attack)
+[Hugging App Flask Target Impact](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Type-Attack)
 
 <img width="330" height="180" alt="image" src="https://github.com/user-attachments/assets/f15e3dfe-491c-4180-977d-13ea53ccbea0" />
+
+
+[![Hugging App Flask Target Impact](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Type-Attack/blob/main/screenshot.png)](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Type-Attack)
+
 
 [Hugging App Flask Target Severity](https://huggingface.co/spaces/sahar-yaccov/microsoft-cyber-attack)|
 
