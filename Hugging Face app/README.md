@@ -8,6 +8,8 @@ One of the main benefits of using Spaces is the speed and simplicity of deployme
 
 However, it's important to note that Spaces have some limitations, such as limited compute resources and runtime constraints on free tiers. For heavier models or long-running tasks, Hugging Face also offers **paid tiers** or integration with **Inference Endpoints** for scalable, production-grade deployment
 
+## Hugging Face Apps
+
 [Hugging App Gradio ](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Attack)
 
 <img width="330" height="183" alt="image" src="https://github.com/user-attachments/assets/4d8fc5d4-1e38-436a-b58a-dd77860d5eb3" />
@@ -18,9 +20,6 @@ However, it's important to note that Spaces have some limitations, such as limit
 
 
 [![Hugging App Flask Target Impact](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Type-Attack/blob/main/screenshot.png)](https://huggingface.co/spaces/sahar-yaccov/Microsoft-Type-Attack)
-
-
-[Hugging App Flask Target Severity](https://huggingface.co/spaces/sahar-yaccov/microsoft-cyber-attack)|
 
 <img width="330" height="185" alt="image" src="https://github.com/user-attachments/assets/7644106c-dbb0-4d6e-bb50-0b84ede928c2" />
 
