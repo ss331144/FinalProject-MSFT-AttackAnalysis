@@ -37,16 +37,16 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 
 ## 📁 Project Structure & Important Files
 
-| Folder/File     | Description                                           |
-|-----------------|-------------------------------------------------------|
-| `reports file/`         | Raw and cleaned datasets (GUIDE dataset included)     |
-| `SQL video/`    | Jupyter notebooks with EDA, feature engineering, modeling, and visualization |
-| `google colab code link/`       | Trained machine learning models and tuning results    |
-| `Dashboard Tableau/`      | Visualizations such as charts, confusion matrices, and graphs |
-| `Colab data upload/`          | Python source code for preprocessing, training, and evaluation scripts |
-| `html`    | Files and folders excluded from version control       |
-| `.gitignore`    | Files and folders excluded from version control       |
-| `README.md`     | This documentation file                                |
+| Folder / File                   | Description |
+|---------------------------------|-------------|
+| **Codes/**                      | Contains raw and cleaned datasets, including the GUIDE dataset. |
+| **Dashboards/**                 | Jupyter notebooks for EDA, feature engineering, modeling, and visualization. |
+| **Data Storage/**               | Trained machine learning models and hyperparameter tuning results. |
+| **Data/**                       | Visualizations such as charts, confusion matrices, and graphs. |
+| **Google Colab Codes Link/**    | Python scripts for preprocessing, training, and evaluation. |
+| **Hugging Face Apps/**          | Hugging Face application files (excluded from version control). |
+| **Report Files/**               | Project reports and related documents (excluded from version control). |
+| **README.md**                   | Project documentation file (this file). |
 
 ---
 
