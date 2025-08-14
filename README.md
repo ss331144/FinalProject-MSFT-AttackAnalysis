@@ -39,13 +39,13 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 
 | Folder / File                   | Description |
 |---------------------------------|-------------|
-| **Codes/**                      | Contains raw and cleaned datasets, including the GUIDE dataset. |
-| **Dashboards/**                 | Jupyter notebooks for EDA, feature engineering, modeling, and visualization. |
-| **Data Storage/**               | Trained machine learning models and hyperparameter tuning results. |
-| **Data/**                       | Visualizations such as charts, confusion matrices, and graphs. |
-| **Google Colab Codes Link/**    | Python scripts for preprocessing, training, and evaluation. |
-| **Hugging Face Apps/**          | Hugging Face application files (excluded from version control). |
-| **Report Files/**               | Project reports and related documents (excluded from version control). |
+| **Codes**                       | Contains raw and cleaned datasets, including the GUIDE dataset. |
+| **Dashboards**                  | Jupyter notebooks for EDA, feature engineering, modeling, and visualization. |
+| **Data Storage**                | Trained machine learning models and hyperparameter tuning results. |
+| **Data**                       | Visualizations such as charts, confusion matrices, and graphs. |
+| **Google Colab Codes Link**    | Python scripts for preprocessing, training, and evaluation. |
+| **Hugging Face Apps**          | Hugging Face application files (excluded from version control). |
+| **Report Files**               | Project reports and related documents (excluded from version control). |
 | **README.md**                   | Project documentation file (this file). |
 
 ---
