@@ -4,7 +4,7 @@
 ### Guide :
 In the **Query Filter** bar, enter your query, for example:
 
-<img width="153" height="46" alt="image" src="https://github.com/user-attachments/assets/73505fcf-94b1-4547-9012-762889bbaad2" />
+<img width="1113" height="42" alt="image" src="https://github.com/user-attachments/assets/13f24f2a-3bb9-4ba6-954b-1802ec8ad28c" />
 
    ```javascript
    { Severity: "Critical" }
