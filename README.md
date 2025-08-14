@@ -1,82 +1,13 @@
-# 📑 Table of Contents
+# Reports Directory
 
-1. [🚀 Project Overview](#-project-overview)  
-2. [👥 Authors](#-authors)  
-3. [📁 Project Structure & Important Files](#-project-structure--important-files)  
-4. [🛠 Technologies & Libraries](#-technologies--libraries)  
-5. [📬 Contact & Collaboration](#-contact--collaboration)
+This folder contains the key reports generated throughout the project lifecycle:
 
-
-
-
-# FinalProject-MSFT-AttackAnalysis
-Data science final project focused on analyzing and predicting cybersecurity incidents using real-world Microsoft threat data. Includes data preprocessing, feature engineering, and model evaluation with various machine learning algorithms.
-
-# FinalProject-MSFT-AttackAnalysis
-
-## 🚀 Project Overview
-
-Welcome to our final data science project! This is a deep dive into the world of cybersecurity, focusing specifically on Microsoft-related attacks and vulnerabilities. Using a massive, real-world dataset from Microsoft’s security bulletins and the GUIDE dataset, we aim to uncover patterns, predict attack likelihoods, and help improve defenses through machine learning.
-
-Why this project? Cybersecurity is one of the hottest and most critical fields today. With cyberattacks growing in sophistication and scale, understanding how and why attacks happen — especially targeting widely used platforms like Microsoft — can save organizations millions and protect countless users. Our project analyzes over **23,000** real incidents and **14** data features, ranging from CVE identifiers to attack complexity and exploitability scores.
-
-We built a robust pipeline that covers everything from data cleaning and exploratory analysis to applying and comparing advanced ML models such as Random Forest, CatBoost, LightGBM, XGBoost, Extra Trees, and even cutting-edge neural nets like TabNet. Our goal: to identify which vulnerabilities are most likely to be exploited and to find the best predictive models.
-
-This work not only enhances academic knowledge but can also serve as a foundation for practical cybersecurity threat intelligence systems.
-
----
-
-## 👥 Authors
-
-| Name         | Role                    | Email                  | Location           | Education                                |
-|--------------|-------------------------|------------------------|--------------------|-----------------------------------------|
-| Sahar Yaakov | Data Scientist & Analyst | saharyaccov@gmail.com | Yokneam Illit, Israel | B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College|
-| Bar Cohen    | Data Scientist & Analyst | barcohen069@gmail.com    | Yokneam Illit, Israel| B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College |
-
----
-
-## 📁 Project Structure & Important Files
-
-| Folder/File     | Description                                           |
-|-----------------|-------------------------------------------------------|
-| `reports file/`         | Raw and cleaned datasets (GUIDE dataset included)     |
-| `SQL video/`    | Jupyter notebooks with EDA, feature engineering, modeling, and visualization |
-| `google colab code link/`       | Trained machine learning models and tuning results    |
-| `Dashboard Tableau/`      | Visualizations such as charts, confusion matrices, and graphs |
-| `Colab data upload/`          | Python source code for preprocessing, training, and evaluation scripts |
-| `html`    | Files and folders excluded from version control       |
-| `.gitignore`    | Files and folders excluded from version control       |
-| `README.md`     | This documentation file                                |
-
----
-
-## 🛠 Technologies & Libraries
-
-- **Languages:** Python 3.x  
-- **Data Handling:** pandas, NumPy, SciPy, scikit-learn, and more
-- **Machine Learning:** scikit-learn, CatBoost, XGBoost, LightGBM, Extra Trees, TabNet  
-- **Visualization:** Matplotlib, Seaborn, Yellowbrick  
-- **Notebook Environment:** Jupyter Notebook  
-- **Data Profiling & HTML Reports**: ydata-profiling.
-
----
-
-## 📬 Contact & Collaboration
-
-We’re excited about this project and open to feedback, collaboration, or any questions you might have!
-
-- **Sahar Yaakov:** saharyaccov@gmail.com  
-- **Bar Cohen:** barcohen069@gmail.com 
-
-Feel free to reach out!
-
----
-
-**Thank you for checking out our work.**  
-*We hope it inspires new ideas and advances in cybersecurity analytics!*
-
----
+- **Exploratory Data Analysis (EDA) Report:** Insights and visualizations to understand the dataset’s structure, patterns, and anomalies.  
+- **Business Report:** Summary of the project’s business context, objectives, and impact related to cybersecurity threat analysis.  
+- **Data Preparation Report:** Documentation of data cleaning, transformation, and feature engineering steps performed before modeling.  
+- **Model Evaluation Report:** Results and comparison of different machine learning models used to predict cybersecurity incidents.  
+- **Modeling Report:** Detailed explanation of the modeling approach, algorithms applied, and hyperparameter tuning process.
+- ## Deployment Report: Comprehensive Overview of the Model Deployment Strategy and Infrastructure
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e4c82e71-b957-41f5-a5a7-18cd4e6aa859" />
-
+Open these reports (mostly in HTML or PDF) in a browser or reader to review the findings and project progress.
