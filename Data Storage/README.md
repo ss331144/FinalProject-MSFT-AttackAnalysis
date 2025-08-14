@@ -5,6 +5,7 @@
 In the **Query Filter** bar, enter your query, for example:
 <img width="153" height="46" alt="image" src="https://github.com/user-attachments/assets/73505fcf-94b1-4547-9012-762889bbaad2" />
 
+
    ```javascript
    { Severity: "Critical" }
    ```
