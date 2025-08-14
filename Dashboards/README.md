@@ -10,6 +10,10 @@ Tableau Public :
 
 **Sahar Yaccov's Dashboard:** - [Dashboard 2](https://public.tableau.com/app/profile/sahar.yacoov/viz/_19_7/Dashboard1)
 
+Looker Studio :
+
+**Bar Cohen's Dashboard:**  - [Dashboard 1](https://lookerstudio.google.com/reporting/4a5ccff8-7e3e-4821-a2ed-9e0660eaf417)
+
 Features
 Interactive filters and drill-down options
 Clear visualization of key metrics and trends
