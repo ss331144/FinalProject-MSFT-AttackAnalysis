@@ -1,17 +1,5 @@
-# Video Compression Notice
-
-To ensure smooth and efficient upload to GitHub, we have compressed the original video file by reducing its quality and overall file size.
-
-This compression helps to:
-
-- Minimize storage space usage on the repository.  
-- Decrease upload and download times.  
-- Maintain a reasonable balance between video quality and file size.
-
-The compression was performed using Python with the FFmpeg library, applying bitrate adjustment and resolution scaling techniques.
-
-**Note:** Due to this compression, the video quality is lower than the original. If you require the full-quality video, please contact the repository maintainer.
-
+# Storage 
+**Google Docs** : [Docs](https://docs.google.com/spreadsheets/d/1l90t8_W-ONJ2Wz4msPEY7h-4dhggCJ8_/edit?gid=474301616#gid=474301616)
 ---
 
 **Important:**  
