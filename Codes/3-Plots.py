@@ -19,108 +19,105 @@ df = pd.read_excel(excel_path)
 # 3D PLOT
 def encode_columns(df):
     """
-    ממירה עמודות קטגוריאליות בדאטה פריים למספרים.
+    Converts categorical columns in the dataframe to numbers.
 
-    df: דאטה פריים (DataFrame)
-    מחזירה את הדאטה פריים עם עמודות מקודדות.
+    df: DataFrame
+    Returns the DataFrame with encoded columns.
     """
-    df_encoded = df.copy()  # יצירת עותק של הדאטה פריים
+    df_encoded = df.copy()  # Create a copy of the DataFrame
     encoders = {}
     encoding_map = {}
     words_encode = {}
 
-    # קידוד עמודות קטגוריאליות
+    # Encode categorical columns
     for col in df_encoded.select_dtypes(include=['object']).columns:
         encoder = LabelEncoder()
         df_encoded[col] = encoder.fit_transform(df_encoded[col])
         encoders[col] = encoder
 
-        # יצירת מילון מיפוי ייחודי לערכים בעמודה זו
+        # Create a unique mapping dictionary for this column's values
         mapping = {label: int(i) for i, label in enumerate(encoder.classes_)}
         encoding_map[col] = mapping
         help_encode = []
         for val, code in mapping.items():
             help_encode.append(f"  '{val}'  ⇒  {code}")
-        words_encode[col]=(help_encode)
+        words_encode[col] = help_encode
 
 
-    print("✅ קודדו עמודות קטגוריאליות.")
-    return df_encoded, encoder ,words_encode
+    print("✅ Encoded categorical columns.")
+    return df_encoded, encoder, words_encode
 
 
 def generate_all_3d_plots(df):
     os.makedirs('plot_active', exist_ok=True)
     """
-    מייצרת גרפים תלת-מימדיים עבור כל שילוב של שלוש עמודות מתוך דאטה פריים.
+    Generates 3D plots for all combinations of three columns from a DataFrame.
 
-    df: דאטה פריים (DataFrame) המכיל את הנתונים.
+    df: DataFrame containing the data.
     """
-    # קידוד העמודות לפני יצירת הגרפים
-    df_encoded, encoders ,words_encode  = encode_columns(df)
+    # Encode columns before plotting
+    df_encoded, encoders, words_encode = encode_columns(df)
 
-    # בדיקה אם יש לפחות 3 עמודות
+    # Check if there are at least 3 columns
     if len(df_encoded.columns) < 3:
-        raise ValueError("יש צורך ביותר מ-2 עמודות בדאטה פריים עבור גרף תלת-מימדי.")
+        raise ValueError("At least 3 columns are required for a 3D plot.")
 
-    # יצירת כל השילובים האפשריים של 3 עמודות
+    # Create all possible combinations of 3 columns
     col_combinations = combinations(df_encoded.columns, 3)
 
-    for k,val in words_encode.items():
-      print(f'encode for {k} : ')
-      for i in val:
-        print(i)
-    # עבור כל שילוב עמודות
+    for k, val in words_encode.items():
+        print(f'encode for {k} : ')
+        for i in val:
+            print(i)
+    # For each column combination
     for col1, col2, col3 in col_combinations:
         try:
-            # יצירת גרף תלת-מימדי
+            # Create 3D plot
             fig = plt.figure(figsize=(12, 12))
             ax = fig.add_subplot(111, projection='3d')
 
-            # נתונים עבור כל אחת מהעמודות
+            # Data for each column
             x = df_encoded[col1]
             y = df_encoded[col2]
             z = df_encoded[col3]
 
-            # הצגת הנתונים בגרף תלת-מימדי
+            # Plot data in 3D
             ax.scatter(x, y, z, c=z, cmap='hot')
 
-            # כותרות לצירים
+            # Axis labels
             ax.set_xlabel(f'{col1},  - x label')
             ax.set_ylabel(f'{col2},  - y label')
             ax.set_zlabel(f'{col3},  - z label' )
 
-            # שמירת הגרף בתיקייה
-            #plt.savefig(os.path.join('plot_active', f'{col1}_{col2}_{col3}.png'))
-            #plt.close()  # סוגר את הגרף כדי למנוע הצגת גרפים מרובים
-
-            print(f"✅ גרף תלת-מימדי עבור {col1}, {col2}, {col3} נוצר בהצלחה.")
+            # Save the plot to folder
             plt.savefig(os.path.join('plot_active', f'{col1}_{col2}_{col3}.png'))
             plt.show()
 
+            print(f"✅ 3D plot for {col1}, {col2}, {col3} created successfully.")
+
         except Exception as e:
-            print(f"⚠️ לא ניתן ליצור גרף עבור {col1}, {col2}, {col3}. שגיאה: {e}")
-            continue  # ממשיך לשילוב הבא אם יש שגיאה
+            print(f"⚠️ Could not create plot for {col1}, {col2}, {col3}. Error: {e}")
+            continue  # Continue with next combination if there's an error
 
 
 
-# קריאה לגרפים תלת-מימדיים עבור כל שילוב של 3 עמודות
-generate_all_3d_plots(df[['Severity' , 'Severity.1', 'Reboot']])
+# Generate 3D plots for all combinations of 3 columns
+generate_all_3d_plots(df[['Severity', 'Severity.1', 'Reboot']])
 
 
-#Chi Squered Plots
-
+# Chi-Squared Plots
 def plot_chi_square_bar(results_df, top_n=10):
     """
-    מצייר גרף עמודות של ערכי חי-בריבוע עבור המשתנים עם הקשרים החזקים ביותר
+    Plots a bar chart of Chi-Square values for the strongest associated variables.
 
     Args:
-        results_df (pd.DataFrame): DataFrame עם Feature_1, Feature_2 וערכי Chi2
-        top_n (int): מספר הצמדים החזקים ביותר להציג
+        results_df (pd.DataFrame): DataFrame with Feature_1, Feature_2, and Chi2 values
+        top_n (int): Number of top strongest pairs to display
 
     Returns:
         None
     """
-    # מיון לפי הערך הגבוה ביותר של Chi2
+    # Sort by highest Chi2 value
     sorted_results = results_df.sort_values(by="Chi2", ascending=False).head(top_n)
 
     plt.figure(figsize=(12, 6))
@@ -140,77 +137,78 @@ def plot_chi_square_bar(results_df, top_n=10):
 
 def chi_square_test(df, target_feature=None):
     """
-    מחשבת חי בריבוע לכל זוג משתנים קטגוריאליים ב-DataFrame.
+    Computes Chi-Square for all pairs of categorical variables in a DataFrame.
 
     Args:
-        df (pd.DataFrame): מסגרת נתונים עם משתנים קטגוריאליים.
-        target_feature (str, optional): משתנה יעד לבדיקה מול כל השאר (אם לא הוגדר, ייבדקו כל הצמדים האפשריים).
+        df (pd.DataFrame): DataFrame with categorical variables.
+        target_feature (str, optional): Target variable to test against all others (if not provided, all pairs are tested).
 
     Returns:
-        pd.DataFrame: תוצאות מבחן חי בריבוע לכל זוג עמודות.
+        pd.DataFrame: Chi-Square results for each pair of columns.
     """
-    # סינון משתנים קטגוריאליים בלבד
+    # Filter only categorical variables
     cat_columns = df.select_dtypes(include=['object', 'category']).columns
     results = []
 
-    # אם הוגדר משתנה יעד, בודקים רק מולו
+    # If target feature is defined, test only against it
     if target_feature and target_feature in cat_columns:
         columns_to_check = [col for col in cat_columns if col != target_feature]
         pairs = [(target_feature, col) for col in columns_to_check]
     else:
-        # בדיקת כל הצמדים האפשריים
+        # Test all possible pairs
         pairs = [(col1, col2) for i, col1 in enumerate(cat_columns) for col2 in cat_columns[i + 1:]]
 
-    # חישוב חי בריבוע לכל צמד משתנים
+    # Compute Chi-Square for each pair
     for col1, col2 in pairs:
-        contingency_table = pd.crosstab(df[col1], df[col2])  # טבלת שכיחות
-        chi2, p, dof, expected = stats.chi2_contingency(contingency_table)  # חישוב חי בריבוע
+        contingency_table = pd.crosstab(df[col1], df[col2])  # Frequency table
+        chi2, p, dof, expected = stats.chi2_contingency(contingency_table)  # Chi-Square computation
         results.append({'Feature_1': col1, 'Feature_2': col2, 'Chi2': chi2, 'p-value': p})
 
     return pd.DataFrame(results)
 
 
-df_res=chi_square_test(df,'Severity')
+df_res = chi_square_test(df, 'Severity')
 print('chi test result : ')
 print(df_res)
-#df_res.to_csv('chi Squered values.csv')
+
 try:
-  plot_chi_square_bar(df_res)
+    plot_chi_square_bar(df_res)
 except Exception as e:
-  print(e)
+    print(e)
 
 
 # Box Plot
 def box_plots(df: pd.DataFrame, target: str):
     """
-    מבצע מבחן ANOVA לכל משתנה מספרי ב-df מול משתנה מטרה קטגורי ומציג גרף boxplot + barplot.
+    Performs ANOVA test for each numeric variable in df against a categorical target variable
+    and displays boxplot + barplot.
 
-    :param df: DataFrame עם משתנים מספריים וקטגוריים.
-    :param target: שם המשתנה הקטגורי (משתנה המטרה).
+    :param df: DataFrame with numeric and categorical variables.
+    :param target: Name of the categorical target variable.
     """
 
-    # בדיקה שהמשתנה המטרה קיים
+    # Check if target variable exists
     if target not in df.columns:
-        raise ValueError(f"המשתנה {target} לא נמצא ב-DataFrame")
+        raise ValueError(f"The variable {target} is not found in the DataFrame")
 
-    # בדיקה שהמשתנה המטרה הוא קטגורי
+    # Check if target variable is categorical
     if df[target].dtype not in ['object', 'category']:
-        raise ValueError("משתנה המטרה חייב להיות קטגורי")
+        raise ValueError("Target variable must be categorical")
 
-    numeric_cols = df.select_dtypes(include=['number']).columns  # מזהה משתנים מספריים
+    numeric_cols = df.select_dtypes(include=['number']).columns  # Identify numeric variables
     results = {}
 
     for col in numeric_cols:
         unique_values = df[target].nunique()
         if unique_values < 2:
-            print(f"Skipping {col}: המשתנה המטרה מכיל רק קטגוריה אחת")
+            print(f"Skipping {col}: target variable contains only one category")
             continue
 
         groups = [df[col][df[target] == cat].dropna() for cat in df[target].unique()]
         stat, p_value = stats.f_oneway(*groups)
         results[col] = {'F-Statistic': stat, 'p-value': p_value}
 
-        # יצירת גרף Boxplot
+        # Create Boxplot
         plt.figure(figsize=(8, 5))
         sns.boxplot(x=df[target], y=df[col])
         plt.title(f'Boxplot of {col} by {target}')
@@ -218,15 +216,13 @@ def box_plots(df: pd.DataFrame, target: str):
         plt.ylabel(col)
         plt.xticks(rotation=45)
         plt.show()
-box_plots(df=df,target='Severity')
+box_plots(df=df, target='Severity')
 
 
-# Pair Wise Plot
-
-
+# Pairwise Plot
 def plot_pairwise_relationships(df, target):
     """
-    This function creates a pairplot to visualize pairwise relationships between numeric columns,
+    Creates a pairplot to visualize pairwise relationships between numeric columns,
     encoding the target column if it's categorical.
 
     Args:
@@ -249,8 +245,6 @@ def plot_pairwise_relationships(df, target):
     plt.suptitle('Pairwise Relationships', y=0.96)
     plt.tight_layout()
 
-    # Save the plot in the existing directory
-
     plt.show()
     plt.close()
 
@@ -258,22 +252,20 @@ def plot_pairwise_relationships(df, target):
 plot_pairwise_relationships(df, 'Severity')
 
 # Correlation Plot
-def plot_correlation_matrix_with_all_columns(df,target):
+def plot_correlation_matrix_with_all_columns(df, target):
     """
-    This function generates a heatmap of the correlation matrix for all columns in the dataframe.
-    Non-numeric columns are encoded numerically before calculating the correlation matrix.
+    Generates a heatmap of the correlation matrix for all columns in the dataframe.
+    Non-numeric columns are encoded numerically before calculating correlations.
 
     Args:
         df (pd.DataFrame): Input dataframe.
     """
-    # Copy the dataframe to avoid modifying the original
     df_encoded = df.copy()
 
-    # Convert non-numeric columns to numeric using category encoding
+    # Convert non-numeric columns to numeric
     for col in df_encoded.select_dtypes(exclude='number').columns:
         df_encoded[col] = df_encoded[col].astype('category').cat.codes
 
-    # Calculate and plot the correlation matrix
     plt.figure(figsize=(10, 8))
     correlation_matrix = df_encoded.corr()
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
@@ -282,48 +274,46 @@ def plot_correlation_matrix_with_all_columns(df,target):
     plt.close()
     print("✅ Correlation matrix plot saved successfully.")
     return correlation_matrix[target]
-plot_correlation_matrix_with_all_columns(df,'Severity')
+plot_correlation_matrix_with_all_columns(df, 'Severity')
 
-#Word Cloud Plot
-
+# Word Cloud Plot
 def create_wordcloud_for_target(df, target_column):
-    # ודא שהעמודה קיימת ב-DataFrame
+    # Ensure the column exists in DataFrame
     if target_column not in df.columns:
-        print(f"עמודה {target_column} לא קיימת ב-DataFrame.")
+        print(f"Column {target_column} does not exist in the DataFrame.")
         return
 
-    # המרת הערכים בעמודה לטקסט
+    # Convert column values to text
     text = ' '.join(df[target_column].dropna().astype(str))
 
-    # יצירת מפת מילים
-    wordcloud = WordCloud(width=800, height=400, background_color='white',colormap='coolwarm').generate(text)
+    # Create word cloud
+    wordcloud = WordCloud(width=800, height=400, background_color='white', colormap='coolwarm').generate(text)
 
-    # הצגת המפה
+    # Display the word cloud
     plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
-    plt.title(f"word cloud for feature - {target_column}", fontsize=30)  # 🔵 הוספת כותרת
-    plt.tight_layout(pad=0)  # אופציונלי: להקטין רווחים מסביב
+    plt.title(f"Word cloud for feature - {target_column}", fontsize=30)
+    plt.tight_layout(pad=0)
     plt.show()
-    print(f'🎯 cloud for {target_column} completed !')
-    # שמירה לקובץ
+    print(f'🎯 Cloud for {target_column} completed!')
 
 nums = 0
 create_wordcloud_for_target(df, 'Severity')
 for i in df.columns:
-  nums+=1
-  if nums==10 :
-    break
-  try:
-    create_wordcloud_for_target(df, i)
-  except Exception as e:
-    print(e)
+    nums += 1
+    if nums == 10:
+        break
+    try:
+        create_wordcloud_for_target(df, i)
+    except Exception as e:
+        print(e)
 
 # Dashboard X Plots
 c = ['Date\nPosted', 'Bulletin\nId', 'Bulletin KB', 'Severity', 'Impact',
-       'Title', 'Affected Product', 'Component KB', 'Affected Component',
-       'Impact.1', 'Severity.1', 'Supersedes', 'Reboot', 'CVEs', 'Date Posted',
-       'Bulletin Id']
+     'Title', 'Affected Product', 'Component KB', 'Affected Component',
+     'Impact.1', 'Severity.1', 'Supersedes', 'Reboot', 'CVEs', 'Date Posted',
+     'Bulletin Id']
 
 df_fig = df.copy()
 df_fig = df_fig.dropna(how='all')
@@ -338,26 +328,18 @@ severity_encode = encoder.fit_transform(df_fig['Severity'])
 print(df.dtypes)
 
 
-#!pip install plotly
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-c = ['Date\nPosted', 'Bulletin\nId', 'Bulletin KB', 'Severity', 'Impact',
-       'Title', 'Affected Product', 'Component KB', 'Affected Component',
-       'Impact.1', 'Severity.1', 'Supersedes', 'Reboot', 'CVEs', 'Date Posted',
-       'Bulletin Id']
-
-
-# יצירת פיגר עם 2 שורות ו-2 עמודות
+# Create figure with 2 rows and 2 columns
 fig = make_subplots(
     rows=2, cols=2,
-    specs=[[ {"type": "scatter","colspan":2},None],
+    specs=[[{"type": "scatter","colspan":2}, None],
            [{"type": "bar"}, {"type": "pie"}]],
-    subplot_titles=['time by severity' ,'scatter of impact','pie of reboot'],
+    subplot_titles=['time by severity', 'scatter of impact', 'pie of reboot'],
 )
 
-
-# תרשים Scatter
+# Scatter Plot
 fig.add_trace(go.Scatter(
     x=dates, y=severity,
     mode='lines+markers', name='Severity by Dates',
@@ -365,40 +347,32 @@ fig.add_trace(go.Scatter(
     line=dict(color='skyblue'),
 ), row=1, col=1)
 
-# תרשים Bar
+# Bar Plot
 impact_counts = df['Impact'].value_counts().sort_index()
 
 fig.add_trace(go.Bar(
-    x=impact_counts.index,                   # שמות הקטגוריות
-    y=impact_counts.values,                  # מספר מופעים
-    text=[f"{val}" for val in impact_counts.values],  # טקסט מעל כל עמודה
+    x=impact_counts.index,
+    y=impact_counts.values,
+    text=[f"{val}" for val in impact_counts.values],
     textposition='outside',
-    textfont=dict(
-        size=10,
-        color='black'
-    ),
-    marker=dict(
-        color='yellow',
-        line=dict(color='black', width=1)
-    ),
+    textfont=dict(size=10, color='black'),
+    marker=dict(color='yellow', line=dict(color='black', width=1)),
     opacity=0.9,
     name='count of Impact'
 ), row=2, col=1)
-# ספירה של ערכים בעמודת 'reboot'
 
+# Pie Chart
 rc = df['Reboot'].value_counts().sort_index()
 
-# תרשים עוגה (Pie)
 fig.add_trace(go.Pie(
-    labels=rc.index,             # ערכים ייחודיים ממוינים
-    values=rc.values,            # מספר מופעים לכל אחד
+    labels=rc.index,
+    values=rc.values,
     marker=dict(colors=['blue', 'red', 'green']),
-    textinfo='label+percent',    # הצגת תווית ואחוזים
-    hoverinfo='label+value'      # מה שמוצג ב-hover
+    textinfo='label+percent',
+    hoverinfo='label+value'
 ), row=2, col=2)
 
-
-# עדכון עיצוב כללי
+# Update layout
 fig.update_layout(
     height=850,
     title_text="Security Microsoft Graphs",
@@ -406,8 +380,7 @@ fig.update_layout(
     uniformtext_mode='hide'
 )
 
-os.makedirs('DashBoards',exist_ok=True)
+os.makedirs('DashBoards', exist_ok=True)
 fig.write_html("DashBoards/security_graphs.html")
 
 fig.show()
-
