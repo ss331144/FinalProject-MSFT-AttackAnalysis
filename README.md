@@ -31,7 +31,7 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 | Name         | Role                    | Email                  | Location           | Education                                |
 |--------------|-------------------------|------------------------|--------------------|-----------------------------------------|
 | Sahar Yaakov | Data Scientist & Analyst | saharyaccov@gmail.com | Yokneam Illit, Israel | B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College|
-| Bar Cohen    | Data Scientist & Analyst | barhofi9@gmail.com    | Yokneam Illit, Israel| B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College |
+| Bar Cohen    | Data Scientist & Analyst | barcohen069@gmail.com    | Yokneam Illit, Israel| B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College |
 
 ---
 
