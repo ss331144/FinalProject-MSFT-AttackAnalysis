@@ -10,6 +10,9 @@ In the **Query Filter** bar, enter your query, for example:
    { Severity: "Critical" }
    ```
 Click **Find** to run the query.
+
+<img width="48" height="27" alt="image" src="https://github.com/user-attachments/assets/37fabeaa-4e41-4b2f-aeea-41d8c421bf73" />
+
 #### Example Queries
 - Search by severity:
   ```javascript
