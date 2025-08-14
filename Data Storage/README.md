@@ -3,6 +3,8 @@
 1 - MongoDB Cloud : [MongoDB](https://cloud.mongodb.com/v2/689e1601b7c6de55cb2cccbe#/explorer/689e169d8c995c677442b540/final_project/microsoft_attack/find)
 ### Guide :
 In the **Query Filter** bar, enter your query, for example:
+<img width="153" height="46" alt="image" src="https://github.com/user-attachments/assets/73505fcf-94b1-4547-9012-762889bbaad2" />
+
    ```javascript
    { Severity: "Critical" }
    ```
