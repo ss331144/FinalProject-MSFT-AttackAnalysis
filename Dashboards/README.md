@@ -18,6 +18,10 @@ Looker Studio :
 
 **Bar Cohen's Dashboard:**  - [Dashboard 1](https://analysis.funnel.io/dashboards/qBhx1pO0VGVeC2irsFpexV)
 
+Power Bi :
+
+**Bar Cohen's Dashboard:**  - [Dashboard 1](https://app.powerbi.com/groups/me/reports/201e1116-caa0-4aff-b77f-1edd2d736985/67dae8b95800ab9a6403?ctid=748f780a-24aa-46e4-98bb-d7852c9a5fec&experience=power-bi)
+
 Features
 Interactive filters and drill-down options
 Clear visualization of key metrics and trends
