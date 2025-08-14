@@ -1,13 +1,13 @@
 # Storage 
 
 1 - MongoDB Cloud : [MongoDB](https://cloud.mongodb.com/v2/689e1601b7c6de55cb2cccbe#/explorer/689e169d8c995c677442b540/final_project/microsoft_attack/find)
-## Guide :
+### Guide :
 In the **Query Filter** bar, enter your query, for example:
    ```javascript
    { Severity: "Critical" }
    ```
 Click **Find** to run the query.
-### Example Queries
+#### Example Queries
 - Search by severity:
   ```javascript
   { Severity: "Critical" }
@@ -19,8 +19,8 @@ Click **Find** to run the query.
     { Severity: "Critical" },
     { Year: 2015 },
     { $or: [
-      { Month: { $gte: 9 } }, // חודשים גדולים או שווים ל-9 (ספטמבר או אחריו)
-      { Month: { $lte: 11 } } // חודשים קטנים או שווים ל-11 (נובמבר או לפני)
+      { Month: { $gte: 9 } }, 
+      { Month: { $lte: 11 } }
     ]}
 })
 ```
