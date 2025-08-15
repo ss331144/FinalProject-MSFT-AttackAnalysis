@@ -1,1 +1,5 @@
 
+MONGO_USER=user0
+MONGO_PASSWORD=User0
+MONGO_CLUSTER=cluster0.xrbfbxu.mongodb.net
+MONGO_DB=final_project
