@@ -8,6 +8,8 @@ Original file is located at
 """
 
 !pip install pymongo
+!pip install python-dotenv
+
 
 """# MongoDB Python Connection Example
 
@@ -42,10 +44,20 @@ from pymongo.server_api import ServerApi
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+from dotenv import load_dotenv
+import os
 
-uri = "mongodb+srv://user0:User0@cluster0.xrbfbxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-# Create a new client and connect to the server
+# טען את הערכים מקובץ .env
+load_dotenv()
+
+user = os.getenv("MONGO_USER")
+password = os.getenv("MONGO_PASS")
+host = os.getenv("MONGO_URI")
+
+uri = f"mongodb+srv://{user}:{password}@{host}/?retryWrites=true&w=majority&appName=Cluster0"
+
+# יצירת client והתחברות
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 # Send a ping to confirm a successful connection
