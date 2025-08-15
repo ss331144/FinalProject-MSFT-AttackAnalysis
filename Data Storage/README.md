@@ -1,36 +1,6 @@
 # Storage 
 
-1 - MongoDB Cloud : [MongoDB]()
-### Guide :
-In the **Query Filter** bar, enter your query, for example:
-
-<img width="1113" height="42" alt="image" src="https://github.com/user-attachments/assets/13f24f2a-3bb9-4ba6-954b-1802ec8ad28c" />
-
-   ```javascript
-   { Severity: "Critical" }
-   ```
-Click **Find** to run the query.
-
-<img width="48" height="27" alt="image" src="https://github.com/user-attachments/assets/37fabeaa-4e41-4b2f-aeea-41d8c421bf73" />
-
-#### Example Queries
-- Search by severity:
-  ```javascript
-  { Severity: "Critical" }
-  ```
-- This query retrieves documents from the microsoft_attack collection where: Severity is "Critical", the Year is 2015, and the Month is September, October, or November (9, 10, or 11).
-```javascript
- db.microsoft_attack.find({
-  $and: [
-    { Severity: "Critical" },
-    { Year: 2015 },
-    { $or: [
-      { Month: { $gte: 9 } }, 
-      { Month: { $lte: 11 } }
-    ]}
-})
-```
-
+1 - MongoDB Cloud : [MongoDB](https://colab.research.google.com/drive/1iV5HzlPEduqu1VsxM0ieArOFICZZNNgf)
 
 2 - Google Docs : [Google Docs](https://docs.google.com/spreadsheets/d/1l90t8_W-ONJ2Wz4msPEY7h-4dhggCJ8_/edit?gid=474301616#gid=474301616)
 
