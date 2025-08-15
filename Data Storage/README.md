@@ -1,6 +1,6 @@
 # Storage 
 
-1 - MongoDB Cloud : [MongoDB](mongodb+srv://user0:User0@cluster0.xrbfbxu.mongodb.net/final_project?retryWrites=true&w=majority)
+1 - MongoDB Cloud : [MongoDB]()
 ### Guide :
 In the **Query Filter** bar, enter your query, for example:
 
