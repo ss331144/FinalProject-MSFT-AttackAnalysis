@@ -1,5 +1,5 @@
-Tableau Dashboard
-This dashboard is created using Tableau and provides interactive visualizations based on the project data.
+נ**Dashboard Overview
+This project includes a series of interactive dashboards created using multiple data visualization platforms, providing a comprehensive and flexible view of the project data. Each dashboard is designed to facilitate data exploration, trend analysis, and insight generation through user-friendly, interactive interfaces.**
 
 Dashboard Location
 The dashboard is publicly available on Tableau Public and can be accessed via the following link:
