@@ -45,6 +45,7 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 | **Data**                       | Visualizations such as charts, confusion matrices, and graphs. |
 | **Google Colab Codes Link**    | Python scripts for preprocessing, training, and evaluation. |
 | **Hugging Face Apps**          | Hugging Face application files (excluded from version control). |
+| **Model**                      | Final saved catboost models ( model.cbm )  |
 | **Report Files**               | Project reports and related documents (excluded from version control). |
 | **README.md**                   | Project documentation file (this file). |
 
