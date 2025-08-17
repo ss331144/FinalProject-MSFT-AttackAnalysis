@@ -1,0 +1,28 @@
+# ================================
+# 📦 Project Requirements
+# ================================
+
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+wordcloud
+scikit-learn
+catboost
+optuna
+ydata-profiling
+jupyter-dash
+dash
+gradio
+
+
+# ================================
+# 🚀 Installation in Google Colab
+# ================================
+# After you upload the requirements.txt file to your Colab environment,
+# run the following command in a new cell:
+
+# !pip install -r requirements.txt
+
+# This will install all the required libraries at once.
