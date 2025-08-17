@@ -13,19 +13,20 @@ The dashboards are publicly available and can be accessed via the following link
 
 ### Looker Studio
 
-- **Bar Cohen's Dashboard:** [Dashboard 1](https://lookerstudio.google.com/reporting/4a5ccff8-7e3e-4821-a2ed-9e0660eaf417)
+- **Bar Cohen's Dashboard:** [Dashboard 3](https://lookerstudio.google.com/reporting/4a5ccff8-7e3e-4821-a2ed-9e0660eaf417)
 
 ### Funnel.io
 
-- **Bar Cohen's Dashboard:** [Dashboard 1](https://analysis.funnel.io/dashboards/qBhx1pO0VGVeC2irsFpexV)
+- **Bar Cohen's Dashboard:** [Dashboard 4](https://analysis.funnel.io/dashboards/qBhx1pO0VGVeC2irsFpexV)
 
 ### Power BI
 
-- **Bar Cohen's Dashboard:** [Dashboard 1](https://app.powerbi.com/groups/me/reports/201e1116-caa0-4aff-b77f-1edd2d736985/67dae8b95800ab9a6403?ctid=748f780a-24aa-46e4-98bb-d7852c9a5fec&experience=power-bi)
+- **Bar Cohen's Dashboard:** [Dashboard 5](https://app.powerbi.com/groups/me/reports/201e1116-caa0-4aff-b77f-1edd2d736985/67dae8b95800ab9a6403?ctid=748f780a-24aa-46e4-98bb-d7852c9a5fec&experience=power-bi)
+-  **Sahar Yaccov's Dashboard:** [Dashboard 6](https://app.powerbi.com/groups/me/reports/836d0996-d4f5-45b7-9253-1e750f548526/b794caf61d610d989a37?experience=power-bi)
 
 ### Microsoft Excel
 
-- **Sahar Yaccov's Dashboard:** [Dashboard 1](https://yvcstudents-my.sharepoint.com/:x:/g/personal/314741851_students_yvc_ac_il/ETGUvHrPHWFKkf5tyi3hKXgBES38_jMpokWD_CsD5fl1_g?e=IKa8bI)
+- **Sahar Yaccov's Dashboard:** [Dashboard 7](https://yvcstudents-my.sharepoint.com/:x:/g/personal/314741851_students_yvc_ac_il/ETGUvHrPHWFKkf5tyi3hKXgBES38_jMpokWD_CsD5fl1_g?e=IKa8bI)
 
 ## Features
 
