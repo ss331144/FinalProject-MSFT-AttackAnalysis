@@ -103,3 +103,8 @@ CatBoost is a great choice if:
 ## Conclusion
 
 CatBoost is a state-of-the-art gradient boosting library that simplifies handling categorical data, reduces overfitting, and provides excellent default performance. With the `model.cbm` file format, users can easily save, share, and deploy models in production environments. This makes CatBoost a highly practical and powerful tool for modern machine learning tasks.
+
+---
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5b11a606-a6db-4556-b3f9-d5508d4702a1" />
+
