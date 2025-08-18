@@ -34,6 +34,8 @@ However, it's important to note that Spaces have some limitations, such as limit
 
 Hugging App Gradio
 
+<img width="1414" height="588" alt="image" src="https://github.com/user-attachments/assets/dc87d551-da71-43a4-899d-a59ff51bea67" />
+
 Hugging App Flask Target Impact
 
 <img width="506" height="302" alt="image" src="https://github.com/user-attachments/assets/258c7ca8-c0cc-476e-b0ee-21f92ab38329" />
