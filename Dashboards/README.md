@@ -28,6 +28,10 @@ The dashboards are publicly available and can be accessed via the following link
 
 - **Sahar Yaccov's Dashboard:** [Dashboard 7](https://yvcstudents-my.sharepoint.com/:x:/g/personal/314741851_students_yvc_ac_il/ETGUvHrPHWFKkf5tyi3hKXgBES38_jMpokWD_CsD5fl1_g?e=IKa8bI)
 
+### Automatic Dashboard :
+
+- [Bricks](https://app.thebricks.com/file/83edf67a-eb36-4cb6-b1f4-16e2fb4c1a5a/122@8b59a068-9243-4b9e-9383-edf67aeb36cc:0/visual-board)
+
 ## Features
 
 - Interactive filters and drill-down options  
