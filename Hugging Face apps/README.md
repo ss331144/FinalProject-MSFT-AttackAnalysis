@@ -25,7 +25,7 @@ However, it's important to note that Spaces have some limitations, such as limit
 
 [Hugging App Streamlit Target Impact](https://huggingface.co/spaces/sahar-yaccov/cyber-attack-prediction)
 
-<img width="237" height="379" alt="image" src="https://github.com/user-attachments/assets/bd960d55-e30e-4fa0-8ff0-710f43967d85" />
+<img width="330" height="180" alt="image" src="https://github.com/user-attachments/assets/6b262380-bbe9-4278-b690-8988937052ea" />
 
 
 
@@ -42,6 +42,5 @@ Hugging App Flask Target Severity
 
 Hugging App Streamlit Target Impact
 
-<img width="330" height="180" alt="image" src="https://github.com/user-attachments/assets/6b262380-bbe9-4278-b690-8988937052ea" />
-
+<img width="237" height="379" alt="image" src="https://github.com/user-attachments/assets/bd960d55-e30e-4fa0-8ff0-710f43967d85" />
 
