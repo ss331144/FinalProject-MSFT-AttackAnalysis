@@ -36,6 +36,8 @@ Hugging App Gradio
 
 Hugging App Flask Target Impact
 
+<img width="506" height="302" alt="image" src="https://github.com/user-attachments/assets/258c7ca8-c0cc-476e-b0ee-21f92ab38329" />
+
 
 Hugging App Flask Target Severity
 
