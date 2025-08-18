@@ -43,6 +43,7 @@ Hugging App Flask Target Impact
 
 Hugging App Flask Target Severity
 
+<img width="370" height="451" alt="image" src="https://github.com/user-attachments/assets/12eaa5fd-1f8a-4611-8a61-b6f5b25d414a" />
 
 Hugging App Streamlit Target Impact
 
