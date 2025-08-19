@@ -52,12 +52,13 @@ Strengthen Microsoft’s security posture using AI-driven insights.
 ## Methodology & Tools
 StageTools & TechniquesData CollectionMicrosoft security logs, threat databasesData CleaningHandling missing values, duplicates, and inconsistenciesModel TrainingCatBoost, XGBoost, Random ForestOptimizationOptuna for hyperparameter tuningVisualizationPower BI, Tableau for interactive dashboards
 
----
-
-<img width="1016" height="571" alt="image" src="https://github.com/user-attachments/assets/85a8cf98-4c2b-409d-886a-24837a759786" />
 
 ## Why This Approach?
 
 Proactive Defense – Shifts from reactive to predictive cybersecurity.
 AI-Powered Insights – Enhances threat detection accuracy.
 CRISP-DM Framework – Ensures structured, data-driven development.
+
+---
+
+<img width="1016" height="571" alt="image" src="https://github.com/user-attachments/assets/85a8cf98-4c2b-409d-886a-24837a759786" />
