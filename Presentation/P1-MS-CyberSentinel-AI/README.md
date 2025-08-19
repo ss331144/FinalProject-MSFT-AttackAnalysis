@@ -6,7 +6,7 @@
 ## **Presentation Structure**
 ```plaintext
 MS-CyberSentinel-AI
-```
+
 │
 ├── **Introduction**
 │   ├── Why Cybersecurity Prediction Matters
@@ -37,7 +37,7 @@ MS-CyberSentinel-AI
 │
 └── **Conclusion**
     └── Summary of Key Findings
-
+```
 ## Presentation Overview
 This presentation outlines a predictive cybersecurity framework for Microsoft systems, leveraging AI and machine learning to forecast cyber threats. The project focuses on early detection, proactive defense, and strategic decision-making to enhance cybersecurity resilience.
 
