@@ -64,3 +64,8 @@ StageTools & TechniquesData CollectionGoogle Sheets, MySQL, MongoDB, OneDriveDat
 AI-Driven Predictions – Accurate and real-time threat detection.
 Interactive Dashboards – User-friendly insights for security teams.
 Scalable Infrastructure – Designed for integration into existing workflows.
+
+---
+
+<img width="1013" height="569" alt="image" src="https://github.com/user-attachments/assets/bd58fdb8-31e7-4019-99fa-faa2a4d2de5d" />
+
