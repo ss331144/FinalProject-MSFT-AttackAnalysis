@@ -4,19 +4,18 @@ The **Presentation** folder contains the final materials prepared for the Micros
 
 ---
 
+
+## 📂 Folder Contents
+
+Inside the **Presentation** folder, you will find:
+
+
 | Presentation | Description | Preview |
 |--------------|-------------|---------|
 | **MS-CyberSentinel-AI** | Overview of the project: data preprocessing, exploratory analysis, and initial model evaluation. | <img width="300" height="150" alt="MS-CyberSentinel-AI" src="https://github.com/user-attachments/assets/85a8cf98-4c2b-409d-886a-24837a759786" /> |
 | **ThreatInsight-AI360** | Focus on advanced model comparisons, performance metrics, and actionable insights. | <img width="300" height="150" alt="ThreatInsight-AI360" src="https://github.com/user-attachments/assets/bd58fdb8-31e7-4019-99fa-faa2a4d2de5d" /> |
 
 ---
-
-## 📂 Folder Contents
-
-Inside the **Presentation** folder, you will find:
-
-- **Final_Presentation.pptx** – Main presentation with project objectives, data preprocessing, exploratory analysis, model comparison, and evaluation metrics.  
-- **Backup_Presentation.pptx** – Backup copy of the final presentation for safety and version control.
 
 ## 🧭 Purpose of the Folder
 
