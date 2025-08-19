@@ -1,22 +1,8 @@
 # 📊 Presentation Folder – FinalProject-MSFT-AttackAnalysis
 
-The **Presentation** folder contains the final materials prepared for the Microsoft Cyber Attack Analysis project. These presentations summarize the entire workflow, from initial data exploration to model recommendations and results.
+The **Presentation** folder contains the final materials prepared for the Microsoft Cyber Attack Analysis project. These presentations summarize the workflow, from initial data exploration to model recommendations and results.
 
 ---
-
-## Presentation 1 - MS-CyberSentinel-AI
-
-<img width="534" height="300" alt="image" src="https://github.com/user-attachments/assets/85a8cf98-4c2b-409d-886a-24837a759786" />
-
----
-
-## Presentation 2 - ThreatInsight-AI360
-
-<img width="534" height="300" alt="image" src="https://github.com/user-attachments/assets/bd58fdb8-31e7-4019-99fa-faa2a4d2de5d" />
-
----
-
-The **Presentation** folder contains the final materials for the Microsoft Cyber Attack Analysis project. These presentations summarize the workflow, including data exploration, model comparison, and key results.
 
 | Presentation | Description | Preview |
 |--------------|-------------|---------|
@@ -29,14 +15,9 @@ The **Presentation** folder contains the final materials for the Microsoft Cyber
 
 Inside the **Presentation** folder, you will find:
 
-- **Final_Presentation.pptx**  
-  This is the main presentation, which includes:  
-  - Overview of project objectives and datasets.  
-  - Data preprocessing and analysis steps.  
-  - Comparison of different machine learning models.  
-  - Model performance results and evaluation metrics.  
+- **Final_Presentation.pptx** – Main presentation with project objectives, data preprocessing, exploratory analysis, model comparison, and evaluation metrics.  
+- **Backup_Presentation.pptx** – Backup copy of the final presentation for safety and version control.
 
 ## 🧭 Purpose of the Folder
 
-The **Presentation** folder serves as a visual documentation of the project workflow. It allows viewers to understand the process, the models tested, and the results obtained. The presentations are suitable for academic, professional, or general audience sharing.
-
+The **Presentation** folder serves as visual documentation of the project workflow. It allows viewers to understand the process, the models tested, and the results obtained. The presentations are suitable for academic, professional, or general audience sharing.
