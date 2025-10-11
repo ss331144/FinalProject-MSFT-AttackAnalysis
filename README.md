@@ -28,10 +28,10 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 
 ## 👥 Authors
 
-| Name         | Role                    | Email / LinkdIn        | Location           | Education                                |
-|--------------|-------------------------|------------------------|--------------------|-----------------------------------------|
-| Sahar Yaakov | Data Scientist & Analyst | [saharYaccov](https://www.linkedin.com/in/sahar-haim-yaccov-a3a6ba306/) | Yokneam Illit, Israel | B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College|
-| Bar Cohen    | Data Scientist & Analyst | barcohen069@gmail.com    | Yokneam Illit, Israel| B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College |
+| Name         | Role                      | Education                                                                  |
+|--------------|-------------------------- |----------------------------------------------------------------------------|
+| Sahar Yaakov | Data Scientist & Analyst  | B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College |
+| Bar Cohen    | Data Scientist & Analyst  | B.Sc. Information Systems & Data Science, Max Stern Yezreel Valley College |
 
 ---
 
@@ -66,9 +66,6 @@ This work not only enhances academic knowledge but can also serve as a foundatio
 ## 📬 Contact & Collaboration
 
 We’re excited about this project and open to feedback, collaboration, or any questions you might have!
-
-- **Sahar Yaakov:** saharyaccov@gmail.com  
-- **Bar Cohen:** barcohen069@gmail.com 
 
 Feel free to reach out!
 
